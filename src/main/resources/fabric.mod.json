@@ -3,10 +3,10 @@
   "id": "modid",
   "version": "${version}",
 
-  "name": "You Stand No Chance 1.19",
+  "name": "You Stand No Chance",
   "description": "This Is a Scythe Mod Thats It. Nothing More.",
   "authors": [
-    "2DSNerd"
+    "catgirlkyla"
   ],
   "contact": {
     "homepage": "https://www.curseforge.com/minecraft/mc-mods/you-stand-no-chance-fabric",
