@@ -6,11 +6,11 @@
   "name": "You Stand No Chance",
   "description": "This Is a Scythe Mod Thats It. Nothing More.",
   "authors": [
-    "catgirlkyla"
+    "Estra"
   ],
   "contact": {
     "homepage": "https://www.curseforge.com/minecraft/mc-mods/you-stand-no-chance-fabric",
-    "sources": "https://github.com/2DSNerd/You-Stand-No-Chance-Fabric"
+    "sources": "https://github.com/estradiolconsumer/You-Stand-No-Chance-Fabric"
   },
 
   "license": "CC0-1.0",
@@ -19,11 +19,11 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.ddsnerd.yourbad.yourbad"
+      "net.estradial.ysncf.config"
     ]
   },
   "mixins": [
-    "yourbad.mixins.json"
+    "ysncf.mixins.json"
   ],
 
   "depends": {
