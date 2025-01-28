@@ -1,7 +1,7 @@
-package net.estradial.ysncf.item;
+package net.astridiol.ysncf.item;
 
-import net.estradial.ysncf.item.custom.ModAxeItem;
-import net.estradial.ysncf.yourbad;
+import net.astridiol.ysncf.item.custom.ModAxeItem;
+import net.astridiol.ysncf.yourbad;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.ArmorItem;

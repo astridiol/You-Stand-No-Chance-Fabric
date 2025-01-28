@@ -1,8 +1,8 @@
-package net.estradial.ysncf.item;
+package net.astridiol.ysncf.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.estradial.ysncf.config;
+import net.astridiol.ysncf.config;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.item.ItemStack;

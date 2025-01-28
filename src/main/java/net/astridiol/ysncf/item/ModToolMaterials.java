@@ -1,5 +1,5 @@
 //What Material And What Damage And What Level Of Duribility And Attack Speed
-package net.estradial.ysncf.item;
+package net.astridiol.ysncf.item;
 
 import net.fabricmc.yarn.constants.MiningLevels;
 import net.minecraft.item.Items;

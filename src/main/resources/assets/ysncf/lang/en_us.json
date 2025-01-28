@@ -5,16 +5,5 @@
   "item.ysncf.goldscythe": "Gold Scythe",
   "item.ysncf.diamondscythe": "Diamond Scythe",
   "item.ysncf.netheritescythe": "Netherite Scythe",
-  "item.ysncf.titanium_ingot": "Titanium Ingot",
-  "block.ysncf.end_titanium_ore": "Titanium Ore [Quit Cheating]",
-  "item.ysncf.titaniumhelmet": "Titanium Helmet",
-  "item.ysncf.titaniumchestplate": "Titanium Chestplate",
-  "item.ysncf.titaniumleggings": "Titanium Leggings",
-  "item.ysncf.titaniumboots": "Titanium Boots",
-  "itemGroup.ysncf.scythes": "You Stand No Chance",
-  "itemGroup.ysncf.scytheore": "Ores (IN DEVELOPMENT)",
-  "item.ysncf.titaniumaxe": "Titanium Axe",
-  "item.ysncf.titaniumscythe": "Titanium Scythe",
-  "item.ysncf.titanium_nugget": "Titanium Nugget"
-
+  "itemGroup.ysncf.scythes": "You Stand No Chance"
 }

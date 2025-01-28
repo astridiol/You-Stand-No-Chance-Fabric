@@ -1,8 +1,8 @@
-package net.ddsnerd.yourbad;
+package net.astridiol.ysncf;
 
-import net.ddsnerd.yourbad.block.ModBlocks;
-import net.ddsnerd.yourbad.item.ModItemGroup;
-import net.ddsnerd.yourbad.item.ModItems;
+import net.astridiol.ysncf.block.ModBlocks;
+import net.astridiol.ysncf.item.ModItemGroup;
+import net.astridiol.ysncf.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

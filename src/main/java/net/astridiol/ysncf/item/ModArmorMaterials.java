@@ -1,4 +1,4 @@
-package net.estradial.ysncf.item;
+package net.astridiol.ysncf.item;
 
 import net.minecraft.item.*;
 import net.minecraft.recipe.Ingredient;

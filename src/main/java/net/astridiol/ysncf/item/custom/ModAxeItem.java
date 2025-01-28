@@ -1,5 +1,5 @@
 //Makes And Axe
-package net.estradial.ysncf.item.custom;
+package net.astridiol.ysncf.item.custom;
 
 import net.minecraft.item.AxeItem;
 import net.minecraft.item.ToolMaterial;
