@@ -1,49 +1,46 @@
 package net.astridiol.ysncf.item;
 
-import net.astridiol.ysncf.item.custom.ModAxeItem;
-import net.astridiol.ysncf.yourbad;
-import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.item.ArmorItem;
+import net.astridiol.ysncf.ysncf;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
+import net.minecraft.item.SwordItem;
+import net.minecraft.item.ToolMaterial;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.registry.RegistryKey;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
-    public static final Item WOODSCYTHE = registerItem("woodscythe", new ModAxeItem(ModToolMaterials.WOOD, 3, -4f,  new FabricItemSettings()));
+    private static Identifier Item;
+    public static final Item WOODSCYTHE = registerItem("woodscythe",
+        new SwordItem(ToolMaterial.WOOD, 2, -3f, new Item.Settings()
+                .registryKey(RegistryKey.of(RegistryKey.ofRegistry(Item),  Identifier.of(ysncf.MOD_ID, "woodscythe")))));
 
-    public static final Item STONESCYTHE = registerItem("stonescythe", new ModAxeItem(ModToolMaterials.STONE, 4, -4f,  new FabricItemSettings()));
+    public static final Item STONESCYTHE = registerItem("stonescythe",
+            new SwordItem(ToolMaterial.STONE, 3, -3f, new Item.Settings()
+                    .registryKey(RegistryKey.of(RegistryKey.ofRegistry(Item),  Identifier.of(ysncf.MOD_ID, "stonescythe")))));
 
-    public static final Item IRONSCYTHE = registerItem("ironscythe", new ModAxeItem(ModToolMaterials.IRON, 10, -4f,  new FabricItemSettings()));
+    public static final Item GOLDSCYTHE = registerItem("goldscythe",
+            new SwordItem(ToolMaterial.GOLD, 7, -3f, new Item.Settings()
+                    .registryKey(RegistryKey.of(RegistryKey.ofRegistry(Item),  Identifier.of(ysncf.MOD_ID, "goldscythe")))));
 
-    public static final Item GOLDSCYTHE = registerItem("goldscythe", new ModAxeItem(ModToolMaterials.GOLD, 8, -4f,  new FabricItemSettings()));
+    public static final Item IRONSCYTHE = registerItem("ironscythe",
+            new SwordItem(ToolMaterial.WOOD, 7, -3f, new Item.Settings()
+                    .registryKey(RegistryKey.of(RegistryKey.ofRegistry(Item),  Identifier.of(ysncf.MOD_ID, "ironscythe")))));
 
-    public static final Item DIAMONDSCYTHE = registerItem("diamondscythe", new ModAxeItem(ModToolMaterials.DIAMOND, 12, -4f,  new FabricItemSettings()));
+    public static final Item DIAMONDSCYTHE = registerItem("diamondscythe",
+            new SwordItem(ToolMaterial.WOOD, 9, -3f, new Item.Settings()
+                    .registryKey(RegistryKey.of(RegistryKey.ofRegistry(Item),  Identifier.of(ysncf.MOD_ID, "diamondscythe")))));
 
-    public static final Item NETHERITESCYTHE = registerItem("netheritescythe", new ModAxeItem(ModToolMaterials.NETHERITE, 13, -4f,  new FabricItemSettings()));
+    public static final Item NETHERITESCYTHE = registerItem("netheritescythe",
+            new SwordItem(ToolMaterial.WOOD, 13, -3f, new Item.Settings()
+                    .registryKey(RegistryKey.of(RegistryKey.ofRegistry(Item),  Identifier.of(ysncf.MOD_ID, "netheritescythe")))));
 
-    //Titanium Items
-    public static final Item TITAINIUMHELMET = registerItem("titaniumhelmet", new ArmorItem(ModArmorMaterials.TITANIUM, ArmorItem.Type.HELMET, new FabricItemSettings()));
-
-    public static final Item TITAINIUMCHESTPLATE = registerItem("titaniumchestplate", new ArmorItem(ModArmorMaterials.TITANIUM, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
-
-    public static final Item TITAINIUMLEGGINGS = registerItem("titaniumleggings", new ArmorItem(ModArmorMaterials.TITANIUM, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
-
-    public static final Item TITAINIUMBOOTS = registerItem("titaniumboots", new ArmorItem(ModArmorMaterials.TITANIUM, ArmorItem.Type.BOOTS, new FabricItemSettings()));
-
-    public static final Item TITANIUM_INGOT = registerItem("titanium_ingot", new Item(new FabricItemSettings()));
-
-    public static final Item TITANIUMSCYTHE = registerItem("titaniumscythe", new ModAxeItem(ModToolMaterials.NETHERITE, 14, 10f,  new FabricItemSettings()));
-
-    public static final Item TITANIUM_NUGGET = registerItem("titanium_nugget", new Item(new FabricItemSettings()));
 
     private static Item registerItem(String name, Item item) {
-        return Registry.register(Registries.ITEM, new Identifier(yourbad.MOD_ID, name), item);
+        return Registry.register(Registries.ITEM, Identifier.of(ysncf.MOD_ID, name), item);
     }
 
     public static void registerModItems() {
-        yourbad.LOGGER.info("Registering Mod Items for " + yourbad.MOD_ID);
+        ysncf.LOGGER.info("Registering Mod Items for " + ysncf.MOD_ID);
     }
 }

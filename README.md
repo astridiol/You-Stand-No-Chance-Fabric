@@ -8,7 +8,7 @@ This Mod Adds New Things Like Scythes And Armor Based Of Real Elements. Feature 
 
 ## Screenshots
 
-<img src="https://i.ibb.co/Kz8SL03/637969657724955811.png"> 
+<img src="https://i.imgur.com/vyvPIIj.png"> <img src="https://cdn.modrinth.com/data/3HyN4uFO/images/4d336d79e8dc24be95e5d6ea90743da73b049b17.png"> <img src="https://cdn.modrinth.com/data/3HyN4uFO/images/3632e41dc880e5c40c8a6df67e4250999085c646.png">
 
 ## Installation
 1. Get **Fabric**
