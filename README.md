@@ -1,6 +1,5 @@
 ### This Mod is Created By Me, I Lost Access to my Old Github
 ---
-# You Stand No Chance Fabric
 ## Overview
 This Mod Adds New Things Like Scythes. This Mod Is For People That Want More Weapons But Want Them to Feel Like Vanilla MC.
 
