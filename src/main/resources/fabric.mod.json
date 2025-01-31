@@ -4,7 +4,7 @@
   "version": "${version}",
 
   "name": "You Stand No Chance",
-  "description": "This Is a Scythe Mod Thats It. Nothing More.",
+  "description": "This Mod Adds New Things Like Scythes. This Mod Is For People That Want More Weapons But Want Them to Feel Like Vanilla MC.",
   "authors": [
     "Astrid"
   ],
@@ -32,7 +32,5 @@
     "minecraft": ">=1.19",
     "java": ">=17"
   },
-  "suggests": {
-    "another-mod": "Extra Enchantments Reworked By: Astrid"
-  }
+  
 }
